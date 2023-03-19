@@ -1,0 +1,131 @@
+.courses-title {
+    background: rgb(7, 2, 150);
+    color: #fff;
+    text-align: center;
+    padding: 200px;
+    font-family: 'Roboto';
+}
+li {
+    list-style-type: none;
+}
+img {
+    width: 100%;
+}
+body {
+    margin: 0;
+    font-family: 'Open Sans';
+    background: rgb(7, 2, 150);
+}
+main {
+    background: rgb(7, 2, 150);
+    padding: 30px;
+}
+footer {
+    color: #fff;
+    background-color: rgb(82, 80, 80);
+    text-align: center;
+    padding: 20px;
+}
+#course {
+    text-align: center;
+    margin: 50px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.video {
+    margin: 30px;
+    width: 30%;
+}
+.primary-video {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.nav-home {
+    position: fixed;
+    padding: 10px 40px 10px 40px;
+    color:rgb(7, 2, 150);
+    background-color: #fff;
+    border-radius: 20px 4px 4px 20px;
+    text-align: center;
+    top: 50px;
+    right: 0px;
+    font-size: 30px;
+    transition: ease-in;
+    font-family: 'Roboto';
+    z-index: 1;
+}
+.nav-home:hover {
+    background-color: rgb(7, 2, 150);
+    color: #fff;
+}
+.lesson-title {
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ul {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: larger;
+}
+.ul li {
+    text-align: center;
+}
+li {
+    width: 100%;
+}
+.list-group {
+    align-items: center;
+}
+.lesson-name {
+    font-size: 30px;
+    padding: 10px;
+    margin: 20px;
+}
+.ul-sticky {
+    background-color: #fff;
+    position: fixed;
+    left: 0px;
+    bottom: 10px;
+}
+.picture-in-picture{
+    width: 40%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+video {
+    animation: videoLoad 3s;
+}
+
+@keyframes videoLoad {
+    from {
+        opacity: 0%;
+        transform: scale(1.3);
+    }
+    to {
+        opacity: 100%;
+        transform: scale(1.0);
+    }
+}
+
+@media(max-width: 600px) {
+    .courses-title {
+        padding-left: 50px;
+        padding-right: 100px;
+    }
+    .ul-sticky {
+        width: 150px;
+    }
+    .ul {
+        font-size: smaller;
+    }
+}
